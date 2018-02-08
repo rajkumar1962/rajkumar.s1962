@@ -1,6 +1,7 @@
 
 #include<stdio.h>
-int main(){
+void main()
+{
   int num,count=0;
 
   printf("Enter a number: ");
@@ -11,5 +12,5 @@ int main(){
       count++;
   }
   printf("Total digits is:  %d",count);
-  return 0;
+ 
 }
